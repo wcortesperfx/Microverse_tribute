@@ -1,9 +1,9 @@
 img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-  }
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
 
 #img-div {
   background: white;
@@ -15,4 +15,34 @@ image {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.my-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+#title-info {
+  text-align: center;
+}
+#quote {
+  text-align: center;
+}
+#tribute-link {
+  text-align: center;
 }
